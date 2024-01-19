@@ -4,7 +4,9 @@
   "description": "exploratory settings for xyz bank",
   "main": "index.js",
   "scripts": {
-    "ci-test": "npx cypress run"
+    "ci-test": "npx cypress run",
+    "cypress-local": "npx cypress run -b chrome --headless",
+    "cypress-cloud": "npx cypress run --record --key b976c1a8-e42a-4573-8fc3-ff1e039175a5"
   },
   "author": "uchenna",
   "license": "ISC",
