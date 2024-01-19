@@ -4,7 +4,8 @@
   "description": "exploratory settings for xyz bank",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci-test": "npx cypress run",
   },
   "author": "uchenna",
   "license": "ISC",
